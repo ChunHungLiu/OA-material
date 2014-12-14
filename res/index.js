@@ -32,7 +32,6 @@ $(function () {
         $('.ripple-btn').OAripple ();
         $('.jelly-ripple-btn').OAripple ().OAjelly ();
       }).siblings ().fadeOut ();
-
     }).enter (function () {
       $('#container > div').fadeOut ();
     });
